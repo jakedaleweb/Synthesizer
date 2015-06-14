@@ -1,0 +1,488 @@
+body{
+	background-color:#343534;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+}
+
+header, footer{
+	background-color:#299fda;
+	box-shadow: 1px 1px 5px 5px rgba(0, 0, 0,0.3);
+	width:100%;
+}
+
+header{
+	position:fixed;
+	z-index:10;
+}
+
+footer a{
+	color:white;
+	text-decoration: none;
+	font-size:120%;
+	font-weight: 300;
+	font-style: italic;
+}
+
+a {
+	color:#a84256;
+	text-decoration:none;
+}
+
+footer a:hover{
+	color:#a84256
+}
+
+footer ul{
+	margin:0;
+	padding:25px 0;
+}
+
+footer li{
+	list-style: none;
+	padding: 0px 30px;
+	display:inline;
+}
+
+header h1{
+	font-weight:400;
+	font-style:italic;
+	margin:0;
+	padding:20px 0;
+	float:left;
+}
+
+span{
+	color:red;
+	text-align:center;
+}
+
+h2{
+	font-weight:400;
+	font-style:italic;
+}
+
+h4{
+	margin:250px 0;
+}
+
+h3{
+	font-weight:300;
+}
+
+input:not(.chooseContentButton){
+	display: block;
+	background-color:rgba(236, 240, 241,0);
+	border:none;
+	margin:0 auto;
+	border-bottom:1px solid white;
+	text-align:center;
+	color:white;
+	padding-top:15px;
+	margin-top:10px;
+}
+
+input[type="number"]{
+	margin:0;
+}
+
+input[type="submit"]{
+	background-color:#a84256;
+	border:none;
+	font-weight:500;
+	font-style:italic;
+	font-size:200%;
+	padding:10px;
+	margin-top:20px;
+	cursor:pointer;
+	box-shadow: 1px 1px 5px 5px rgba(0, 0, 0,0.1);	
+}
+
+input[type="submit"]:hover{
+	color:#299fda;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	display: inline;
+	text-align:left;
+}
+
+.chooseContentButton{
+	color:white;
+	font-size:150% !important;
+}
+
+#content-right a:not(.job a), .applicantLink{
+	color:white;
+	text-decoration: none;
+	font-size:150%;
+	padding: 5px 10px;
+	background-color:#a84256;
+}
+
+#content-right a:hover{
+	color:#299fda;
+}
+
+#logo{
+	width:300px;
+}
+
+#logo img{
+	width:50px;
+	float:left;
+	padding-top:15px;
+	padding-left:50px;
+}
+
+#logo a{
+	color:white;
+	text-decoration:none;
+}
+
+#userInfo #user{
+	float:right;
+	width:80px;
+}
+
+#userImage img {
+	border-radius: 50%;
+	margin-top:10px;
+	position:relative;
+}
+
+#userImage{
+	width:60px;
+	height:60px;
+	float:right;
+}
+
+#userRank img{
+	width:100px;
+	position:absolute;
+	right:130px;
+	top:45px;
+}
+
+#user{
+	background-color:#004f76;
+	height:30px;
+	margin:25px 40px 0 20px;
+	color:white;
+	padding:0 5px;
+}
+
+#user a {
+	text-decoration: none;
+	color:white;
+}
+
+#user a:hover{
+	color:#a84256;
+}
+
+#user p {
+	display:inline;
+	line-height:35px;
+}
+
+#display-button{
+	width:20px;
+	height:30px;
+	color:#299fda;
+	cursor:pointer;
+	text-align:center;
+	position:relative;
+}
+
+#mobile-list{
+	position:absolute;
+	right:0px;
+	top:39px;
+	list-style: none;
+	text-align:center;
+	box-shadow: 1px 6px 5px 5px rgba(0, 0, 0,0.3);
+	margin-right:40px;
+	background-color:#299fda;
+	padding:0;
+}
+
+#mobile-list li{
+	border-bottom:2px solid #343534;
+	padding: 5px 20px 5px 19px;
+	
+}
+
+#mobile-list a {
+	text-decoration: none;
+	color:white;
+}
+
+#mobile-list a:hover  {
+	color:#a84256;
+}
+
+#content{
+	padding-top:80px;
+}
+
+#content-left{
+	width:20%;
+	float:left;
+	box-sizing:border-box;
+}
+
+#searchQuery{
+	text-align:left;
+	padding:80px 60px;
+}
+
+#searchQuery label {
+	padding-left:20px;
+}
+
+#searchQuery h2{
+	margin:10px;
+}
+
+#signUpForm{
+	text-align: center;
+	padding:80px 0;
+}
+
+#searchQuery input[type="submit"]{
+	width:100%;	
+}
+
+#content-right{
+	padding:85px 40px 85px 150px;
+	float:left;
+	line-height:2.5;
+	width:60%;
+	border-left: 1px solid white;
+	box-sizing:border-box;
+}
+
+.home p{
+	padding-left:50px;
+}
+
+#action-link {
+	background-color:#a84256;
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	position:fixed;
+	bottom:50px;
+	right:50px;
+	box-shadow: 1px 1px 5px 5px rgba(0, 0, 0,0.3);
+	color:white;
+	font-size:200%;
+	text-align:center;
+	line-height:150px;
+	font-size:700%;
+	transition: all 0.3s;
+}
+
+#action-link:hover{
+	width:155px;
+	height:155px;
+	bottom:48px;
+	right:48px;
+	line-height:155px;
+	transition: all 0.3s;
+}
+
+#action-link a{
+	color:white;
+}
+
+#action-link a:hover{
+	color:#299fda;
+}
+
+.job{
+	border-bottom:1px solid white;
+	padding-bottom:20px;
+	margin-top:20px;
+}
+
+.job a:not(.deleteButton){
+	color:white;
+	text-decoration: none;
+}
+
+.job a:hover{
+	color:#a84256;
+}
+
+.job ul{
+	list-style:none;
+	margin-top:10px;
+}
+
+.price{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	background-color:#299fda;
+	text-align:center;
+	line-height:0;
+	padding:0;
+	margin-left:0;
+	font-weight:700;
+	font-size: 350%;
+	float:left;
+	margin-right:20px;
+	position:relative;
+}
+
+.price p{
+	margin-left:10px;
+}
+
+.dollar{
+	font-size:50%;
+	position:absolute;
+	top:50px;
+	left:5px;
+	color:white;
+}
+
+.jobInfo{
+	line-height:1.4;
+}
+
+.jobInfo p{
+	letter-spacing: 0.05em;
+}
+
+.jobInfo h3{
+ 	font-weight:400;
+ 	font-size:150%;
+ 	margin:0;
+
+}
+
+.jobInfo h4{
+	font-weight: 300;
+	font-size:130%;
+	margin:0;
+}
+
+.date{
+	float:right;
+}
+
+#logInForm {
+	padding:300px 0;
+}
+
+.profile{
+	text-align:center;
+	line-height:1;
+	margin:60px 0;
+}
+
+#profilePic img{
+	border-radius:50%;
+	width:200px;
+	height: 200px;
+	position:relative;
+}
+
+#profileRank{
+	position: absolute;
+	left:35px;
+	top:330px;
+}
+
+#profileRank img{
+	width:280px;
+}
+
+#ranksContainer{
+	margin:0 auto;
+	width:90%;
+}
+
+.scores{
+	background-color:#299fda;
+	border-radius:50%;
+	width:55px;
+	height:55px;
+	float:left;
+	margin:20px 10px;
+	line-height:1px;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.scores p:nth-of-type(2){
+	font-size:30%;
+	font-weight:lighter;
+	line-height:10px;
+}
+
+#jobPrice{
+	background-color: #299fda;
+	height:80px;
+	width:80px;
+	border:none;
+	border-radius:50%;
+	padding:0;
+	margin:0;
+	position:relative;
+	font-size:200%;
+	color:white;
+	text-align:center !important;
+}
+
+#newJobForm input{
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+
+
+#newJobForm label{
+	font-weight:400;
+	font-size:120%;
+	font-style:italic;
+	line-height:2.5;
+}
+
+.applicantSubmit, .successfulApplicant{
+	color:white;
+	text-decoration: none;
+	font-size:150%;
+	padding: 5px 10px;
+	background-color:#a84256;
+	display:inline;
+}
+
+.successfulApplicant{
+	background-color:#27ae60;
+	font-size:200%;
+}
+
+/*for use with burger.js*/
+.hidden {
+	display:none;
+}
+
+.deleteButton{
+	color:#a84256;
+	font-size:80%;
+	text-decoration:none;
+}
+
+/*clearfix from http://nicolasgallagher.com/micro-clearfix-hack/*/
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
